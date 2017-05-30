@@ -10,20 +10,30 @@
 
   <body>
 
-    <h1>Serra's Profile</h1>
+    <ul id="navbar">
+      <li><a href=#back_top>Home</a></li>
+      <li><a href=#edu>Education</a></li>
+      <li><a href=#exp>Experiences</a></li>
+      <li><a href=#hob>Hobbies</a></li>
+    </ul>
+
+    <a id="back_top">
+    <div id = "topbanner">
+      <h1> Serra's Profile </h1>
+    </div>
 
     <div class = "content">
 
-      <h2>about me</h2>
+      <h2>About me</h2>
 
-      <h3>Education</h3>
+      <h3 id="edu">Education</h3>
         <ul>
           <li>School: UC Berkeley</li>
           <li>Major: Economics, Intended Computer Science</li>
           <li>Year: Sophomore</li>
         </ul>
 
-      <h3>Experiences</h3>
+      <h3 id="exp">Experiences</h3>
         <ul>
           <li>
             <a href="http://ticket.interpark.com/" target="_blank">Interpark</a>
@@ -60,32 +70,36 @@
 
     </div>
 
-    <div class="right">
+    <div class="sidebar">
 
       <img src="IMG_4437.jpg" id="picture">
 
-      <ul id="links">
-        <h3 id="hobbies">Hobbies</h3>
-          <div id="longboard">
-            <li>Longboard</li>
+      <div id="links">
+        <h3 id="hob">Hobbies</h3>
+        <p>Longboard
+            <div id="longboard">
               <video width="320" height="240" controls>
                 <source src= "IMG_3743.mov" type="video/mp4">
               </video>
               <video width="320" height="240" controls>
                 <source src= "IMG_3851.mov" type="video/mp4">
               </video>
-          </div>
+            </div>
+          </p>
 
+        <p>Dance
           <div id="dance">
-            <li> Dance </li>
-              <iframe class="sidebar" src="https://www.youtube.com/embed/D4LK9EUmUKc" frameborder="0" allowfullscreen></iframe>
-              <iframe class="sidebar" src="https://www.youtube.com/embed/fISx1FR6ogM" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/D4LK9EUmUKc" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/fISx1FR6ogM" frameborder="0" allowfullscreen></iframe>
           </div>
-      </ul>
+        </p>
+
+        </ul>
+      </div>
 
     </div>
 
-    <img src="backtotop.png" id="backtotop">
+    <a href=#back_top><img src="backtotop.png" id="backtotop"></a>
 
   </body>
 
